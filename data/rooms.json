@@ -1,0 +1,130 @@
+[
+  {
+    "imgs": {
+      "img1": "src/assets/img_habitaion.jpg",
+      "img2": "src/assets/img_habitaion2.jpg",
+      "img3": "src/assets/img_habitaion3.jpg",
+      "img4": "src/assets/img_habitaion2.jpg",
+      "img5": "src/assets/img_habitaion3.jpg"
+    },
+
+    "roomNumber": 101,
+    "_id": "101",
+    "bedType": "Double",
+    "facilities": ["Wi-Fi", "TV", "Air Conditioning"],
+    "rate": 120.0,
+    "offerPrice": 96.0,
+    "status": true,
+    "description":
+      "The Deluxe Double Room (Room 101) offers a luxurious experience with a comfortable double bed. Equipped with modern amenities such as Wi-Fi, TV, and air conditioning, this room provides a perfect blend of comfort and convenience. The room features a contemporary design with soothing colors and elegant furnishings. Guests can enjoy a peaceful night's sleep in the spacious and well-appointed surroundings. The room is perfect for couples seeking a romantic getaway or business travelers looking for a relaxing stay. Take advantage of the special offer price of $96.0 per night and indulge in a memorable stay at our hotel."
+  },
+  {
+    "imgs": {
+      "img1": "src/assets/img_habitaion2.jpg",
+      "img2": "src/assets/img_habitaion2.jpg",
+      "img3": "src/assets/img_habitaion3.jpg",
+      "img4": "src/assets/img_habitaion2.jpg",
+      "img5": "src/assets/img_habitaion.jpg"
+    },
+    "roomNumber": 102,
+    "_id": "102",
+    "bedType": "Single",
+    "facilities": ["Wi-Fi", "TV", "Heating"],
+    "rate": 80.0,
+    "offerPrice": 64.0,
+    "status": false,
+    "description":
+      "The Comfortable Single Room (Room 102) is designed for solo travelers seeking a cozy and private space. The room features a comfortable single bed and is equipped with essential amenities including Wi-Fi, TV, and heating. With a warm and inviting atmosphere, this room provides a relaxing retreat after a day of exploration or business meetings. Although currently unavailable, this room is often in high demand for its affordable rate of $64.0 per night. We look forward to welcoming guests to this charming and budget-friendly accommodation."
+  },
+  {
+    "imgs": {
+      "img1": "src/assets/img_habitaion2.jpg",
+      "img2": "src/assets/img_habitaion.jpg",
+      "img3": "src/assets/img_habitaion3.jpg",
+      "img4": "src/assets/img_habitaion2.jpg",
+      "img5": "src/assets/img_habitaion.jpg"
+    },
+    "roomNumber": 103,
+    "_id": "103",
+    "bedType": "Twin",
+    "facilities": ["Wi-Fi", "TV", "Air Conditioning", "Mini Bar"],
+    "rate": 150.0,
+    "offerPrice": 120.0,
+    "status": false,
+    "description":
+      "The Elegant Twin Room (Room 103) is designed for guests who appreciate spacious and sophisticated accommodations. This room features twin beds and is equipped with a range of amenities, including Wi-Fi, TV, air conditioning, and a mini bar. The contemporary design and thoughtful touches provide a comfortable and memorable stay. Whether traveling for business or leisure, guests can unwind in style. Enjoy the special offer price of $120.0 per night for a delightful experience in our Twin Room."
+  },
+  {
+    "imgs": {
+      "img1": "src/assets/img_habitaion.jpg",
+      "img2": "src/assets/img_habitaion2.jpg",
+      "img3": "src/assets/img_habitaion3.jpg",
+      "img4": "src/assets/img_habitaion2.jpg",
+      "img5": "src/assets/img_habitaion3.jpg"
+    },
+    "roomNumber": 104,
+    "_id": "104",
+    "bedType": "Double",
+    "facilities": ["Wi-Fi", "TV", "Air Conditioning"],
+    "rate": 120.0,
+    "offerPrice": 96.0,
+    "status": true,
+    "description":
+      "Experience luxury in the Premium Double Room (Room 104). This room boasts a comfortable double bed and is equipped with modern amenities such as Wi-Fi, TV, and air conditioning. The stylish decor and spacious layout create a welcoming ambiance for guests. Whether you're here for business or leisure, this room offers the perfect blend of comfort and convenience. Take advantage of the special rate of $96.0 per night for an unforgettable stay in our Premium Double Room."
+  },
+  {
+    "imgs": {
+      "img1": "src/assets/img_habitaion.jpg",
+      "img2": "src/assets/img_habitaion2.jpg",
+      "img3": "src/assets/img_habitaion3.jpg",
+      "img4": "src/assets/img_habitaion2.jpg",
+      "img5": "src/assets/img_habitaion3.jpg"
+    },
+    "roomNumber": 105,
+    "_id": "105",
+    "bedType": "Single",
+    "facilities": ["Wi-Fi", "TV", "Heating"],
+    "rate": 80.0,
+    "offerPrice": 64.0,
+    "status": false,
+    "description":
+      "The Classic Single Room (Room 105) provides a cozy and intimate space for solo travelers. Featuring a comfortable single bed and essential amenities such as Wi-Fi, TV, and heating, this room ensures a pleasant stay. The room's classic design and thoughtful details offer a comfortable retreat after a day of exploration. Although currently unavailable, this room is a popular choice for its affordability, with a special offer price of $64.0 per night."
+  },
+  {
+    "imgs": {
+      "img1": "src/assets/img_habitaion.jpg",
+      "img2": "src/assets/img_habitaion2.jpg",
+      "img3": "src/assets/img_habitaion3.jpg",
+      "img4": "src/assets/img_habitaion2.jpg",
+      "img5": "src/assets/img_habitaion3.jpg"
+    },
+    "roomNumber": 106,
+    "_id": "106",
+    "bedType": "Twin",
+    "facilities": ["Wi-Fi", "TV", "Air Conditioning", "Mini Bar"],
+    "rate": 150.0,
+    "offerPrice": 120.0,
+    "status": true,
+    "description":
+      "Indulge in the Twin Deluxe Room (Room 106), offering a spacious and elegant retreat for guests. This room features twin beds and is equipped with modern amenities, including Wi-Fi, TV, air conditioning, and a mini bar. The contemporary design and luxurious furnishings create a sophisticated ambiance. Whether you're here for business or leisure, the Twin Deluxe Room provides the perfect combination of comfort and style. Take advantage of the special offer price of $120.0 per night for an exquisite stay."
+  },
+  {
+    "imgs": {
+      "img1": "src/assets/img_habitaion.jpg",
+      "img2": "src/assets/img_habitaion2.jpg",
+      "img3": "src/assets/img_habitaion3.jpg",
+      "img4": "src/assets/img_habitaion2.jpg",
+      "img5": "src/assets/img_habitaion3.jpg"
+    },
+
+    "roomNumber": 107,
+    "_id": "107",
+    "bedType": "Double",
+    "facilities": ["Wi-Fi", "TV", "Air Conditioning"],
+    "rate": 120.0,
+    "offerPrice": 96.0,
+    "status": true,
+    "description":
+      "Discover the charm of the Double Comfort Room (Room 107). This room features a comfortable double bed and is equipped with essential amenities, including Wi-Fi, TV, and air conditioning. The cozy ambiance and thoughtful design make it an ideal choice for a relaxing stay. Whether you're a business traveler or on a romantic getaway, the Double Comfort Room provides a welcoming retreat. Enjoy the special offer price of $96.0 per night for a delightful experience in our well-appointed Double Comfort Room."
+  }
+]

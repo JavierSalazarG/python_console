@@ -1,0 +1,102 @@
+[
+  {
+    "foto": "src/assets/navbar/perfil.png",
+    "nombre": "Juan Pérez",
+    "_id": "01",
+    "email": "juan.perez@empresa.com",
+    "start_date": "01/01/2023",
+    "description": "Analista de datos",
+    "contact": 987654321,
+    "status": true
+  },
+  {
+    "foto": "src/assets/navbar/perfil.png",
+    "nombre": "Ana García",
+    "_id": "02",
+    "email": "ana.garcia@empresa.com",
+    "start_date": "02/01/2023",
+    "description": "Diseñadora gráfica",
+    "contact": 876543219,
+    "status": false
+  },
+  {
+    "foto": "src/assets/navbar/perfil.png",
+    "nombre": "Luis Rodríguez",
+    "_id": "03",
+    "email": "luis.rodriguez@empresa.com",
+    "start_date": "03/01/2023",
+    "description": "Programador web",
+    "contact": 765432198,
+    "status": true
+  },
+  {
+    "foto": "src/assets/navbar/perfil.png",
+    "nombre": "Elena López",
+    "_id": "04",
+    "email": "elena.lopez@empresa.com",
+    "start_date": "04/01/2023",
+    "description": "Contable",
+    "contact": 654321987,
+    "status": true
+  },
+  {
+    "foto": "src/assets/navbar/perfil.png",
+    "nombre": "Carlos Sánchez",
+    "_id": "05",
+    "email": "carlos.sanchez@empresa.com",
+    "start_date": "05/01/2023",
+    "description": "Marketing",
+    "contact": 543219876,
+    "status": false
+  },
+  {
+  "foto": "src/assets/navbar/perfil.png",
+    "nombre": "Sara Martínez",
+    "_id": "06",
+    "email": "sara.martinez@empresa.com",
+    "start_date": "06/01/2023",
+    "description": "Recursos humanos",
+    "contact": 432198765,
+    "status": false
+  },
+  {
+    "foto": "src/assets/navbar/perfil.png",
+    "nombre": "Pedro Gómez",
+    "_id": "07",
+    "email": "pedro.gomez@empresa.com",
+    "start_date": "07/01/2023",
+    "description": "Administrativo",
+    "contact": 321987654,
+    "status": true
+  },
+  {
+    "foto": "src/assets/navbar/perfil.png",
+    "nombre": "Laura Fernández",
+    "_id": "08",
+    "email": "laura.fernandez@empresa.com",
+    "start_date": "08/01/2023",
+    "description": "Comercial",
+    "contact": 219876543,
+    "status": false
+  },
+  {
+    "foto": "src/assets/navbar/perfil.png",
+    "nombre": "David González",
+    "_id": "09",
+    "email": "david.gonzalez@empresa.com",
+    "start_date": "09/01/2023",
+    "description": "Ingeniero",
+    "contact": 998765432,
+    "status": false
+  },
+  {
+    "foto": "src/assets/navbar/perfil.png",
+    "nombre": "Marta Díaz",
+    "_id": "10",
+    "email": "marta.diaz@empresa.com",
+    "start_date": "10/01/2023",
+    "description": "Secretaria",
+    "contact": 987654321,
+    "status": true
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "nombre": "María",
+    "fecha": "21/11/2023",
+    "foto_perfil": "/src/assets/navbar/perfil.png",
+    "comentario":
+      "He pasado unos días maravillosos en el hotel. El personal es muy amable y atento, la habitación es amplia y cómoda, y la ubicación es perfecta para visitar la ciudad. Lo recomiendo sin duda.",
+      "archive": false
+  },
+
+  {
+    "id": 2,
+    "nombre": "Pedro",
+    "fecha": "18/11/2023",
+    "foto_perfil": "/src/assets/navbar/perfil.png",
+    "comentario":
+      "He quedado encantado con el hotel. La habitación es espaciosa y luminosa, la cama es muy cómoda, y el baño es moderno y funcional. El wifi funciona muy bien, y el personal es muy profesional y simpático. Un 10.",
+      "archive": false
+  },
+
+  {
+    "id": 3,
+    "nombre": "Laura",
+    "fecha": "17/11/2023",
+    "foto_perfil": "/src/assets/navbar/perfil.png",
+    "comentario":
+      "El hotel es una pasada, todo está cuidado al detalle. La limpieza es impecable, el ambiente es acogedor, y el trato es muy cordial. Me ha encantado el restaurante, la comida es deliciosa y el servicio es rápido y eficiente. Lo recomiendo al 100%.",
+      "archive": false
+  },
+
+  {
+    "id": 4,
+    "nombre": "Juan",
+    "fecha": "16/11/2023",
+    "foto_perfil": "/src/assets/navbar/perfil.png",
+    "comentario":
+      "El hotel es increíble, me he sentido como en casa. La habitación es muy bonita y confortable, el desayuno es muy completo y sabroso, y el spa es una maravilla. El personal es muy atento y amable, siempre dispuesto a ayudar. Un placer.",
+      "archive": false
+  },
+
+  {
+    "id": 5,
+    "nombre": "Sara",
+    "fecha": "15/11/2023",
+    "foto_perfil": "/src/assets/navbar/perfil.png",
+    "comentario":
+      "El hotel es fantástico, todo está perfecto. La habitación es muy grande y elegante, el baño es muy amplio y limpio, y la cama es muy suave y confortable. El wifi es muy bueno, y el personal es muy amable y servicial. Un placer.",
+      "archive": false
+  },
+
+  {
+    "id": 6,
+    "nombre": "Luis",
+    "fecha": "14/11/2023",
+    "foto_perfil": "/src/assets/navbar/perfil.png",
+    "comentario":
+      "El hotel es espectacular, todo es de primera calidad. La habitación es muy moderna y acogedora, el desayuno es muy variado y rico, y el spa es un lujo. El personal es muy profesional y simpático, siempre atento a las necesidades de los huéspedes. Un acierto.",
+      "archive": false
+  },
+
+  {
+    "id": 7,
+    "nombre": "Elena",
+    "fecha": "13/11/2023",
+    "foto_perfil": "/src/assets/navbar/perfil.png",
+    "comentario":
+      "El hotel es maravilloso, todo es de ensueño. La habitación es muy bonita y confortable, el baño es muy grande y limpio, y la cama es muy cómoda y calentita. El wifi es muy bueno, y el personal es muy amable y simpático. Un placer.",
+      "archive": false
+  },
+
+  {
+    "id": 8,
+    "nombre": "David",
+    "fecha": "12/11/2023",
+    "foto_perfil": "/src/assets/navbar/perfil.png",
+    "comentario":
+      "El hotel es genial, todo es de lujo. La habitación es muy espaciosa y luminosa, el desayuno es muy completo y delicioso, y el spa es una pasada. El personal es muy atento y simpático, siempre dispuesto a ayudar. Un 10.",
+      "archive": false
+  },
+
+  {
+    "id": 9,
+    "nombre": "Marta",
+    "fecha": "11/11/2023",
+    "foto_perfil": "/src/assets/navbar/perfil.png",
+    "comentario":
+      "El hotel es magnífico, todo es de calidad. La habitación es muy grande y elegante, el baño es muy amplio y funcional, y la cama es muy suave y confortable. El wifi es muy rápido, y el personal es muy educado y agradable. Un sueño.",
+      "archive": false
+  },
+
+  {
+    "id": 10,
+    "nombre": "Pablo",
+    "fecha": "10/11/2023",
+    "foto_perfil": "/src/assets/navbar/perfil.png",
+    "comentario":
+      "El hotel es excelente, todo es de 10. La habitación es muy cómoda y limpia, el desayuno es muy rico y variado, y el spa es una gozada. El personal es muy amable y atento, siempre dispuesto a resolver cualquier duda. Un lujo.",
+      "archive": false
+  }
+]
