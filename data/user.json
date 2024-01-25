@@ -2,7 +2,7 @@
   {
     "foto": "src/assets/navbar/perfil.png",
     "nombre": "Juan Pérez",
-    "_id": "01",
+    "_id": 1,
     "email": "juan.perez@empresa.com",
     "start_date": "01/01/2023",
     "description": "Analista de datos",
@@ -12,7 +12,7 @@
   {
     "foto": "src/assets/navbar/perfil.png",
     "nombre": "Ana García",
-    "_id": "02",
+    "_id": 2,
     "email": "ana.garcia@empresa.com",
     "start_date": "02/01/2023",
     "description": "Diseñadora gráfica",
@@ -22,7 +22,7 @@
   {
     "foto": "src/assets/navbar/perfil.png",
     "nombre": "Luis Rodríguez",
-    "_id": "03",
+    "_id": 3,
     "email": "luis.rodriguez@empresa.com",
     "start_date": "03/01/2023",
     "description": "Programador web",
@@ -32,7 +32,7 @@
   {
     "foto": "src/assets/navbar/perfil.png",
     "nombre": "Elena López",
-    "_id": "04",
+    "_id": 4,
     "email": "elena.lopez@empresa.com",
     "start_date": "04/01/2023",
     "description": "Contable",
@@ -42,7 +42,7 @@
   {
     "foto": "src/assets/navbar/perfil.png",
     "nombre": "Carlos Sánchez",
-    "_id": "05",
+    "_id": 5,
     "email": "carlos.sanchez@empresa.com",
     "start_date": "05/01/2023",
     "description": "Marketing",
@@ -52,7 +52,7 @@
   {
   "foto": "src/assets/navbar/perfil.png",
     "nombre": "Sara Martínez",
-    "_id": "06",
+    "_id": 6,
     "email": "sara.martinez@empresa.com",
     "start_date": "06/01/2023",
     "description": "Recursos humanos",
@@ -62,7 +62,7 @@
   {
     "foto": "src/assets/navbar/perfil.png",
     "nombre": "Pedro Gómez",
-    "_id": "07",
+    "_id": 7,
     "email": "pedro.gomez@empresa.com",
     "start_date": "07/01/2023",
     "description": "Administrativo",
@@ -72,7 +72,7 @@
   {
     "foto": "src/assets/navbar/perfil.png",
     "nombre": "Laura Fernández",
-    "_id": "08",
+    "_id": 8,
     "email": "laura.fernandez@empresa.com",
     "start_date": "08/01/2023",
     "description": "Comercial",
@@ -82,7 +82,7 @@
   {
     "foto": "src/assets/navbar/perfil.png",
     "nombre": "David González",
-    "_id": "09",
+    "_id": 9,
     "email": "david.gonzalez@empresa.com",
     "start_date": "09/01/2023",
     "description": "Ingeniero",
@@ -92,7 +92,7 @@
   {
     "foto": "src/assets/navbar/perfil.png",
     "nombre": "Marta Díaz",
-    "_id": "10",
+    "_id": 10,
     "email": "marta.diaz@empresa.com",
     "start_date": "10/01/2023",
     "description": "Secretaria",

@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "_id": 1,
     "id_habitacion": "101",
     "nombre": "Juan",
     "apellidos": "Pérez",
@@ -14,7 +14,7 @@
     "status": "Check In"
   },
   {
-    "id": 2,
+    "_id": 2,
     "id_habitacion": "106",
     "nombre": "Maria",
     "apellidos": "Gómez",
@@ -28,7 +28,7 @@
     "status": "In Progress"
   },
   {
-    "id": 3,
+    "_id": 3,
     "id_habitacion": "102",
     "nombre": "Carlos",
     "apellidos": "Rodríguez",
@@ -42,7 +42,7 @@
     "status": "Check Out"
   },
   {
-    "id": 4,
+    "_id": 4,
     "id_habitacion": "101",
     "nombre": "Ana",
     "apellidos": "López",
@@ -56,7 +56,7 @@
     "status": "Check In"
   },
   {
-    "id": 5,
+    "_id": 5,
     "id_habitacion": "105",
     "nombre": "Pedro",
     "apellidos": "Martínez",
@@ -70,7 +70,7 @@
     "status": "In Progress"
   },
   {
-    "id": 6,
+    "_id": 6,
     "id_habitacion": "106",
     "nombre": "Laura",
     "apellidos": "González",
@@ -84,7 +84,7 @@
     "status": "Check In"
   },
   {
-    "id": 7,
+    "_id": 7,
     "id_habitacion": "105",
     "nombre": "Javier",
     "apellidos": "Sánchez",

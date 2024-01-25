@@ -12,7 +12,15 @@ class Model(ABC):
             for item in data:
                 print(item)
                 print()
-    
+    @classmethod
+    def view(cls):
+        with open(cls.path) as file:
+            data = json.load(file)
+            print('Introduce id')
+            id = input()
+        for element in data:
+            if element["_id"] == int(id):
+                print(element)
 
 class Users(Model):
     path = os.path.join(os.path.dirname(__file__), '../data/user.json')

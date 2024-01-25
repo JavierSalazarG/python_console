@@ -9,7 +9,7 @@
     },
 
     "roomNumber": 101,
-    "_id": "101",
+    "_id": 1,
     "bedType": "Double",
     "facilities": ["Wi-Fi", "TV", "Air Conditioning"],
     "rate": 120.0,
@@ -27,7 +27,7 @@
       "img5": "src/assets/img_habitaion.jpg"
     },
     "roomNumber": 102,
-    "_id": "102",
+    "_id": 2,
     "bedType": "Single",
     "facilities": ["Wi-Fi", "TV", "Heating"],
     "rate": 80.0,
@@ -45,7 +45,7 @@
       "img5": "src/assets/img_habitaion.jpg"
     },
     "roomNumber": 103,
-    "_id": "103",
+    "_id": 3,
     "bedType": "Twin",
     "facilities": ["Wi-Fi", "TV", "Air Conditioning", "Mini Bar"],
     "rate": 150.0,
@@ -63,7 +63,7 @@
       "img5": "src/assets/img_habitaion3.jpg"
     },
     "roomNumber": 104,
-    "_id": "104",
+    "_id": 4,
     "bedType": "Double",
     "facilities": ["Wi-Fi", "TV", "Air Conditioning"],
     "rate": 120.0,
@@ -81,7 +81,7 @@
       "img5": "src/assets/img_habitaion3.jpg"
     },
     "roomNumber": 105,
-    "_id": "105",
+    "_id": 5,
     "bedType": "Single",
     "facilities": ["Wi-Fi", "TV", "Heating"],
     "rate": 80.0,
@@ -99,7 +99,7 @@
       "img5": "src/assets/img_habitaion3.jpg"
     },
     "roomNumber": 106,
-    "_id": "106",
+    "_id": 6,
     "bedType": "Twin",
     "facilities": ["Wi-Fi", "TV", "Air Conditioning", "Mini Bar"],
     "rate": 150.0,
@@ -118,7 +118,7 @@
     },
 
     "roomNumber": 107,
-    "_id": "107",
+    "_id": 7,
     "bedType": "Double",
     "facilities": ["Wi-Fi", "TV", "Air Conditioning"],
     "rate": 120.0,
