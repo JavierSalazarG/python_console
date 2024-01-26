@@ -36,27 +36,22 @@ class Model(ABC):
             print(element)
 
     @classmethod
-    def create(cls):
+    def create(cls, datas):
         with open(cls.path) as file:
             data = json.load(file)
             l_data = len(data)
 
             fecha = datetime.now()
-            new_comments = {
-                "_id": l_data + 1,
-                "nombre": input("introduce tu nombre:"),
-                "fecha": fecha,
-                "foto_perfil": "https://loremflickr.com/cache/resized/65535_52630952123_7666ab4252_b_640_480_nofilter.jpg",
-                "comentario": input("escribe tu comentario:"),
-                "archive": False
-            }
+            datas["_id"]: l_data + 1
+            datas["fecha"]: fecha
+            
             respuesta_archive = input("¿Deseas archivar el comentario? (responde 'si' o 'no'): ").lower()
 
             if respuesta_archive == 'si':
-                new_comments["archive"] = True
+                datas["archive"] = True
 
             print("se a creado con exito el comentario!")
-            print(new_comments)
+            print(datas)
 
     @classmethod
     def update(cls):

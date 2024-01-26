@@ -34,7 +34,14 @@ def runApp():
     elif argumentos.action == 'delete_comments':
         Comments.delete()
     elif argumentos.action == "create_comments":
-        Comments.create()
+        
+        datas = {
+                "nombre": input("introduce tu nombre:"),
+                "foto_perfil": "https://loremflickr.com/cache/resized/65535_52630952123_7666ab4252_b_640_480_nofilter.jpg",
+                "comentario": input("escribe tu comentario:"),
+                "archive": False
+            }
+        Comments.create(datas)
     elif argumentos.action == "update_comments":
         Comments.update()
 runApp()
