@@ -10,6 +10,7 @@ class ModelUser(Model):
         super().__init__(path if path else self.path)
     
     def create(self):
+
         while True:
             photo = input('Introduce la URL de la foto: ')
             if validate_photo(photo):
@@ -56,3 +57,40 @@ class ModelUser(Model):
         finally:
           
             close_connection(connection)
+
+    def update(self):
+        connection = create_connection()
+        cursor = connection.cursor(dictionary=True)
+        
+        while True:
+            email_user = input('Introduce el correo del usuario que deseas actualizar: ')
+            query = f"SELECT * FROM users WHERE email = '{email_user}'"
+            cursor.execute(query)
+            data = cursor.fetchone()
+
+            if data:
+                break
+            else:
+                print(f"No se encontró el correo {email_user}. Inténtalo de nuevo.")
+
+        columns = list(data.keys())
+        columns.remove('email')
+        print("Selecciona la columna que deseas actualizar:")
+        for i, column in enumerate(columns, start=1):
+            print(f"{i}. {column}")
+
+        while True:
+            try:
+                selected_column_number = int(input("Ingresa el número correspondiente a la columna que deseas actualizar: "))
+                selected_column = columns[selected_column_number - 1]
+                break
+            except (ValueError, IndexError):
+                print("Error: Ingresa un número válido de la lista.")
+
+        new_value = input(f'Introduce el nuevo valor para {selected_column}: ')
+        update_query = f"UPDATE users SET {selected_column} = %s WHERE email = %s"
+        cursor.execute(update_query, (new_value, email_user))
+        connection.commit()
+        print(f"Se actualizó la columna {selected_column} con el nuevo valor: {new_value} para el usuario con correo {email_user}")
+
+        close_connection(connection)

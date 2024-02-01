@@ -11,7 +11,8 @@ def runApp():
         "view_users",
         "delete_users", 
         "create_users", 
-        
+        "update_users",
+
         "view_bookings", 
         "list_bookings", 
         "delete_bookings",
@@ -42,7 +43,8 @@ def runApp():
         user_model.delete()
     elif argumentos.action == "create_users":
         user_model.create()
-
+    elif argumentos.action == "update_users":
+        user_model.update()
         
     elif argumentos.action == 'list_bookings':
         Bookings.list()
