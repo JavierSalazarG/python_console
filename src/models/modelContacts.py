@@ -3,7 +3,7 @@ import os
 import re
 from datetime import datetime
 from config.server import create_connection, close_connection
-from utils.validaciones import validate_photo, validate_nombre, validate_email, validate_description, validate_contact
+from utils.validaciones import validate_photo, validate_nombre,  validate_description
 class ModelContacts(Model):
     path= path = os.path.join(os.path.dirname(__file__), '../data/comments.json')
     table = "comments"
@@ -28,15 +28,7 @@ class ModelContacts(Model):
             if validate_description(comentario):
                 break
         
-        
-
-        data = {
-            "nombre": nombre,
-            "foto_perfil": foto_perfil,
-            "fecha": fecha,
-            "comentario": comentario,
-            "archive": archive
-        }
+       
         connection = create_connection()
         if not connection:
             print("error: no se ha podido establecer la conexion")

@@ -31,3 +31,24 @@ def validate_contact(contact):
         print("Error: El número de contacto debe tener entre 9 y 12 dígitos.")
         return False
     return True
+
+
+def validate_room_number(room_number):
+    if not re.match(r'^[1-9]\d{0,2}$', room_number) or not (1 <= int(room_number) <= 999):
+        print("Error: El número de habitación debe estar entre 001 y 999.")
+        return False
+    return True
+
+def validate_rate(rate):
+    try:
+        rate_float = float(rate)
+        if rate_float < 20.00:
+            print("Error: El valor de la tarifa debe ser igual o mayor a 20.00.")
+            return False
+        elif rate_float != round(rate_float, 2):
+            print("Error: La tarifa debe tener siempre dos decimales.")
+            return False
+        return True
+    except ValueError:
+        print("Error: Ingresa un número válido para la tarifa.")
+        return False

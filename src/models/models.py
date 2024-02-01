@@ -87,9 +87,7 @@ class Model(ABC):
         pass
             
 
-class Rooms(Model):
-    path= path = os.path.join(os.path.dirname(__file__), '../data/rooms.json')
-    table = "rooms"
+
 class Bookings(Model):
     path= path = os.path.join(os.path.dirname(__file__), '../data/bookings.json')
     table = "bookings"

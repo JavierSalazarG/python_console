@@ -36,15 +36,7 @@ class ModelUser(Model):
                 break
         status = input('Introduce el estado: ')
 
-        data = {
-            "photo": photo,
-            "nombre": nombre,
-            "email": email,
-            "start_date": start_date,
-            "description": description,
-            "contact": contact,
-            "status": status
-        }
+    
         connection = create_connection()
         if not connection:
             print("error: no se ha podido establecer la conexion")
