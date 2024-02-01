@@ -1,20 +1,25 @@
 import argparse
-from models.models import Users, Comments, Rooms, Bookings
+from models.modelUser import ModelUserer  # Asegúrate de importar la clase correcta
 
 def runApp():
     parser = argparse.ArgumentParser(
         prog="Python app",
         description="Datos de JSON")
-    parser.add_argument("action", choices=['list_users', "view_users","delete_users","view_bookings", "list_bookings", "delete_bookings" "list_rooms" , "view_rooms","delete_rooms", "list_comments", "view_comments", "delete_comments", "create_comments", "update_comments"])
+    parser.add_argument("action", choices=['list_users', "view_users","delete_users", "create_users", "view_bookings", "list_bookings", "delete_bookings" "list_rooms" , "view_rooms","delete_rooms", "list_comments", "view_comments", "delete_comments", "create_comments", "update_comments"])
     
     argumentos = parser.parse_args()
 
+    # Crear una instancia de ModelUserer
+    user_model = ModelUserer()
+
     if argumentos.action == 'list_users':
-        Users.list()
+        user_model.list()
     elif argumentos.action == 'view_users':
-        Users.view()
+        user_model.view()
     elif argumentos.action == 'delete_users':
-        Users.delete()
+        user_model.delete()
+    elif argumentos.action == "create_users":
+        user_model.create()
     elif argumentos.action == 'list_bookings':
         Bookings.list()
     elif argumentos.action == 'view_bookings':
