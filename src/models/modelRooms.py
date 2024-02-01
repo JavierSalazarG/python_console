@@ -114,3 +114,40 @@ class ModelRooms(Model):
         finally:
           
             close_connection(connection)
+    
+    def update(self):
+        connection = create_connection()
+        cursor = connection.cursor(dictionary=True)
+        
+        while True:
+            room_number = input('Introduce el numero de habitacion que deseas actualizar: ')
+            query = f"SELECT * FROM rooms WHERE roomNumber = '{room_number}'"
+            cursor.execute(query)
+            data = cursor.fetchone()
+
+            if data:
+                break
+            else:
+                print(f"No se encontró el Numero {room_number}. Inténtalo de nuevo.")
+
+        columns = list(data.keys())
+        columns.remove('roomNumber')
+        print("Selecciona la columna que deseas actualizar:")
+        for i, column in enumerate(columns, start=1):
+            print(f"{i}. {column}")
+
+        while True:
+            try:
+                selected_column_number = int(input("Ingresa el número correspondiente a la columna que deseas actualizar: "))
+                selected_column = columns[selected_column_number - 1]
+                break
+            except (ValueError, IndexError):
+                print("Error: Ingresa un número válido de la lista.")
+
+        new_value = input(f'Introduce el nuevo valor para {selected_column}: ')
+        update_query = f"UPDATE rooms SET {selected_column} = %s WHERE roomNumber = %s"
+        cursor.execute(update_query, (new_value, room_number))
+        connection.commit()
+        print(f"Se actualizó la columna {selected_column} con el nuevo valor: {new_value} para el usuario con correo {room_number}")
+
+        close_connection(connection)

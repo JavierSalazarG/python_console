@@ -21,7 +21,7 @@ def runApp():
         "view_rooms",
         "delete_rooms", 
         "create_rooms",
-
+        "update_rooms",
 
         "list_contacts", 
         "view_contacts", 
@@ -62,6 +62,8 @@ def runApp():
         rooms_model.delete()
     elif argumentos.action == 'create_rooms':
         rooms_model.create()
+    elif argumentos.action == "update_rooms":
+        rooms_model.update()
 
 
     elif argumentos.action == 'list_contacts':
