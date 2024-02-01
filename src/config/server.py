@@ -1,6 +1,5 @@
 import mysql.connector
 
-# Configuración de la conexión (puedes ajustar esto según tus necesidades)
 db_config = {
     'host': 'localhost',
     'database': 'HotelMiranda',
@@ -22,10 +21,3 @@ def close_connection(connection):
         connection.close()
         print("Conexión cerrada")
 
-# Ejemplo de uso
-if __name__ == "__main__":
-    db = create_connection()
-
-    # Realiza operaciones con la base de datos aquí
-
-    close_connection(db)
