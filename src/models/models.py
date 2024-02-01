@@ -87,13 +87,6 @@ class Model(ABC):
         pass
             
 
-class Users(Model):
-    
-    table = "users"
-class Comments(Model):
-    path= path = os.path.join(os.path.dirname(__file__), '../data/comments.json')
-    table = "comments"
-
 class Rooms(Model):
     path= path = os.path.join(os.path.dirname(__file__), '../data/rooms.json')
     table = "rooms"

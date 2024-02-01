@@ -1,38 +1,39 @@
 from models.models import Model
 import os
-from utils.validaciones import validate_photo, validate_nombre, validate_email, validate_description, validate_contact
+import re
 from datetime import datetime
 from config.server import create_connection, close_connection
-class ModelUser(Model):
-    table = "users"
-    path = os.path.join(os.path.dirname(__file__), '../data/user.json')
+
+class Comments(Model):
+    path= path = os.path.join(os.path.dirname(__file__), '../data/comments.json')
+    table = "comments"
     def __init__(self, path=None):
         super().__init__(path if path else self.path)
-    
+
     def create(self):
         while True:
             photo = input('Introduce la URL de la foto: ')
-            if validate_photo(photo):
+            if self.validate_photo(photo):
                 break
 
         while True:
             nombre = input('Introduce el nombre: ')
-            if validate_nombre(nombre):
+            if self.validate_nombre(nombre):
                 break
         while True:
             email = input('Introduce el correo electrónico: ')
-            if validate_email(email):
+            if self.validate_email(email):
                 break
 
         start_date = datetime.now().strftime("%Y-%m-%d")
 
         while True:
             description = input('Introduce la descripción: ')
-            if validate_description(description):
+            if self.validate_description(description):
                 break
         while True:
             contact = input('Introduce el número de contacto: ')
-            if validate_contact(contact):
+            if self.validate_contact(contact):
                 break
         status = input('Introduce el estado: ')
 

@@ -1,5 +1,5 @@
 import argparse
-from models.modelUser import ModelUserer  # Asegúrate de importar la clase correcta
+from models.modelUser import ModelUser 
 
 def runApp():
     parser = argparse.ArgumentParser(
@@ -10,7 +10,7 @@ def runApp():
     argumentos = parser.parse_args()
 
     # Crear una instancia de ModelUserer
-    user_model = ModelUserer()
+    user_model = ModelUser()
 
     if argumentos.action == 'list_users':
         user_model.list()
