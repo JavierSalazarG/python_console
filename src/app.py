@@ -1,5 +1,5 @@
 import argparse
-from models import Users, Comments, Rooms, Bookings
+from models.models import Users, Comments, Rooms, Bookings
 
 def runApp():
     parser = argparse.ArgumentParser(
